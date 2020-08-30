@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Login Facebook</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        .lado{  display: inline-block;
+                padding-right: 1em;}
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+        <!--Menu-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ml-auto">
+            <!--Logo-->
+            <a class="navbar-brand" href="#">
+                <img src="img/Facebook-logo.png" height="40px" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                <div class="ml-auto">
+                    <!--Login-->
+                    <form class="form form-inline" method="get" action="">
+            
+                        <div class="lado">
+                            <div class="form-group">
+                                <input class="form-control form-control-sm" type="text" placeholder="Digite seu e-mail." name="email">
+                            </div>
+                        </div>
+
+                        <div class="lado">
+                            <div class="form-group">
+                                <input type="password" class="form-control form-control-sm" name="senha" id="" placeholder="Digite sua senha.">
+                            </div>
+                        </div>
+
+                        <div class="lado">
+                            <div class="form-group">
+                                <small id="emailHelp" class="form-text text-muted"><a href="">esqueceu sua senha?</a></small>
+                            </div>
+                        </div>
+            
+                        <div class="lado">
+                            <div class="form-group">
+                                <button class="btn btn-outline-primary btn-sm text-right" type="button" id="btnEntrar">Entrar</button>
+                            </div>
+                        </div> 
+                                    
+                    </form>
+                    <!--Fim login-->
+                </div>
+
+            </div>
+            
+        </nav>
+        <!--Fim menu-->
+
+
+        <div class="container mt-5">     
+            
+            <div class="row col-lg-12">
+
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <!--Imagem e texto-->  
+                    <h1 class="text-primary h5">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+                    <img src="img/fundo.png" height="400px" alt="">
+                </div>
+                
+                <div class="col-sm-12 col-md-6 col-lg-5">
+                
+                    <h1 class="h2 col-12">Abra uma conta</h1>
+                    <h2 class="h6 col-12">É rápido e fácil.</h2>
+
+                    <form action="form">
+                        
+                        <!--Formulário-->                        
+                        <div class="form-row mt-4">
+                                
+                            <!--Nome-->
+                            <div class="form-group col-6">
+                                <input type="text" name="" id="" class="form-control" placeholder="Nome" aria-describedby="helpId">
+                            </div>
+                    
+                            <!--Sobrenome-->
+                            <div class="form-group col-6">
+                                <input type="text" name="" id="" class="form-control" placeholder="Sobrenome" aria-describedby="helpId">
+                            </div>
+
+                            <!--E-mail-->
+                            <div class="form-group col-12">
+                                <input type="email" name="" id="" class="form-control" placeholder="E-mail ou celular" aria-describedby="helpId">
+                            </div>
+                    
+                            <h3 class="h6 text-default mt-3">Data de nascimento</h3>
+                    
+                            <div class="form-group">
+
+                            <div class="row">
+                                <!--Dia-->
+                                <div class="col-4">
+                                    <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Dia</label>
+                                        <select class="form-control mr-sm-2 " id="inlineFormCustomSelect">
+                                            <option selected>Dia</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3...</option>
+                                        </select>
+                                </div>
+                            
+                                <!--Mês-->
+                                <div class="col-4">
+                                    <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Mês</label>
+                                        <select class="form-control mr-sm-2" id="inlineFormCustomSelect">
+                                            <option selected>Mês</option>
+                                            <option value="1">Janeiro</option>
+                                            <option value="2">Fevereiro</option>
+                                            <option value="3">Março...</option>
+                                        </select>
+                                </div>
+                            
+                                <!--Ano-->
+                                <div class="col-4">
+                                    <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Ano</label>
+                                        <select class="form-control mr-sm-2" id="inlineFormCustomSelect">
+                                            <option selected>Ano</option>
+                                            <option value="1">2011</option>
+                                            <option value="2">2012</option>
+                                            <option value="3">2013...</option>
+                                        </select>
+                                </div>
+                            </div>
+                    
+                            <h3 class="h6 text-default text-left mt-4">Gênero</h3>
+                    
+                            <!--Radios-->
+                            <div class="btn-group btn-group-toggle mb-3 col-12" data-toggle="buttons">
+                                <label class="btn btn-secondary active">
+                                    <input type="radio" name="options" id="option1" checked> Personalizado
+                                </label>
+                                <label class="btn btn-secondary">
+                                    <input type="radio" name="options" id="option2"> Feminino
+                                </label>
+                                <label class="btn btn-secondary">
+                                    <input type="radio" name="options" id="option3"> Masculino
+                                </label>
+                            </div>
+                    
+                            <!--Termos-->
+                                <p class="h6 font-weight-light">
+                                    Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="">Política de Dados</a> e <a href="">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+                                </p>
+                    
+                            <!--Botão cadastrar-->
+                            <button class="btn btn-outline-success btn-lg mt-3 mb-3">Cadastrar</button>            
+                    
+                                <p class="h6 font-weight-light mb-5">
+                                    <a href="#"> Criar uma Página</a> para uma celebridade, banda ou empresa.
+                                </p>
+
+                        </div>
+                    </form>
+            
+                </div>
+
+            </div>
+            
+        </div>
+      
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
